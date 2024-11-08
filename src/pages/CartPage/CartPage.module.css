@@ -1,0 +1,49 @@
+section {
+    max-width: 1300px;
+    margin: 0 auto;
+    color: #232323;
+}
+
+.sum {
+    font-size: 20px;
+}
+
+.cards {
+    display: flex;
+    gap: 50px;
+}
+
+.cards img {
+    width: 400px;
+}
+
+.card {
+    display: flex;
+    align-items: center;
+    gap: 50px;
+}
+
+.card h5 {
+    font-size: 18px;
+    color: #4b4b4b;
+}
+
+.card p {
+    font-size: 18px;
+    color: #a05959;
+    font-weight: 500;
+}
+
+.more {
+    background-color: #0009EA;
+    padding: 10px 15px;
+    color: #ffffff;
+    border: 1px solid #0009EA;
+    border-radius: 10px;
+}
+
+.more:hover {
+    background-color: transparent;
+    transition: .4s ease-in;
+    color: #0009EA;
+}

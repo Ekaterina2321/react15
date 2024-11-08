@@ -1,0 +1,14 @@
+.slider-container {
+    background-color: blueviolet;
+}
+
+.slick-prev:before {
+    content: '←';
+    color: #000;
+}
+
+.news__tovars img {
+    width: 300px;
+    height: 300px;
+    object-fit: cover;
+}
